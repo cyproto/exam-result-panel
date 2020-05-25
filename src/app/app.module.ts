@@ -12,7 +12,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AngularFirestore } from '@angular/fire/firestore';
 import { ViewResultComponent } from './view-result/view-result.component';
-import { MatRadioModule, MatInputModule, MatCheckboxModule, MatButtonModule, MatDatepickerModule, MatNativeDateModule, MatProgressBarModule, MatIconModule, MatListModule, MatDividerModule, MatRippleModule, MatDialogModule } from '@angular/material';
+import { MatRadioModule, MatInputModule, MatCheckboxModule, MatButtonModule, MatDatepickerModule, MatNativeDateModule, MatProgressBarModule, MatIconModule, MatListModule, MatDividerModule, MatRippleModule, MatDialogModule, MatProgressSpinnerModule } from '@angular/material';
 import { FlexLayoutModule } from '@angular/flex-layout';
 
 const firebaseConfig = {
@@ -56,6 +56,7 @@ firebase.initializeApp(firebaseConfig);
     MatRippleModule,
     MatRadioModule,
     MatDialogModule,
+    MatProgressSpinnerModule,
     FlexLayoutModule.withConfig({addFlexToParent: false}),
   ],
   providers: [AngularFirestore],

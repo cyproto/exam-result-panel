@@ -19,7 +19,7 @@ export class ViewResultComponent implements OnInit {
   percentage: number = 0;
   passingCutOff: number = 35;
   grade: String;
-  resultNotFound: boolean = false;
+  resultNotFound: boolean;
   usersCollection: any;
 
   constructor( public activatedRoute: ActivatedRoute, public angularFirestore: AngularFirestore ) {
