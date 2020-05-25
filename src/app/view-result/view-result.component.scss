@@ -1,0 +1,123 @@
+.outer-div {
+    margin: 5%;
+}
+
+.profile-image {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: top center;
+}
+
+.profile-header{
+    background-color: black;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+    letter-spacing: 3px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.profile-info-div {
+    border-radius: 20px;
+    padding: 20px;
+    max-width: 90%;
+    margin-left: 5%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.result-summary-header {
+    background-color: black;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.result-summary-subtitle {
+    text-align: center;
+}
+
+.result-summary-data {
+    text-align: center;
+}
+
+.passed-class {
+    background-color: #00bdaa;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.failed-class {
+    background-color: #d9455f;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.download-result-button {
+    background-color: #0779e4;
+    color: white;
+}
+
+.current-question-div{
+    border-radius: 20px;
+    padding: 30px;
+    background-color: #e9e9e7;
+    font-weight: bolder;
+}
+
+.current-option-div{
+    padding: 10px;
+    background-color: #f7f7f7;
+    border-radius: 20px;
+    width: 45%;
+    word-wrap: break-word;
+    font-weight: bold;
+}
+
+.option-span{
+    white-space: normal;
+    color: black;
+}
+
+.correct-option-class {
+    background-color: #75daad;
+}
+
+.wrong-option-class {
+    background-color: #ffbaba;
+}
+
+.logout-button {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    font-weight: bolder;
+    background-color: #d9455f;
+    color: white;
+}
+
+.not-found-header{
+    background-color: black;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+    letter-spacing: 3px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
